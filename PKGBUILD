@@ -24,13 +24,15 @@ backup=()
 options=()
 install=
 changelog=
-source_x86_64=(https://www.dresden-elektronik.de/deconz/ubuntu/beta/$pkgname-$pkgver-qt5.deb)
-source_armv6h=(http://www.dresden-elektronik.de/rpi/deconz/beta/$pkgname-$pkgver-qt5.deb)
-source_armv7h=(http://www.dresden-elektronik.de/rpi/deconz/beta/$pkgname-$pkgver-qt5.deb)
+source_x86_64=(https://www.dresden-elektronik.de/deconz/ubuntu/beta/$pkgname-dev-$pkgver.deb)
+source_armv6h=(http://www.dresden-elektronik.de/rpi/deconz/beta/$pkgname-dev-$pkgver.deb)
+source_armv7h=(http://www.dresden-elektronik.de/rpi/deconz/beta/$pkgname-dev-$pkgver.deb)
+source_aarch64=(http://www.dresden-elektronik.de/rpi/deconz/beta/$pkgname-dev-$pkgver.deb
 noextract=()
-sha256sums_x86_64=(702e94adee5e665a0a81a6d4851f7c958eb31465fc98e3e2bee53a6ecf2f6455)
-sha256sums_armv6h=(0a9c6802a91400af4e7a0b3113811fa28f88b7a91c96b31ca264984cdad949ee)
-sha256sums_armv7h=(0a9c6802a91400af4e7a0b3113811fa28f88b7a91c96b31ca264984cdad949ee)
+sha256sums_x86_64=(SKIP)
+sha256sums_armv6h=(SKIP)
+sha256sums_armv7h=(SKIP)
+sha256sums_armv7h=(aarch64)
 
 package() {
   cd "${srcdir}"
