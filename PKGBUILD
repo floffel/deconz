@@ -32,7 +32,7 @@ noextract=()
 sha256sums_x86_64=(SKIP)
 sha256sums_armv6h=(SKIP)
 sha256sums_armv7h=(SKIP)
-sha256sums_armv7h=(aarch64)
+sha256sums_aarch64=(SKIP)
 
 package() {
   cd "${srcdir}"
