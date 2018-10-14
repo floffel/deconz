@@ -1,7 +1,7 @@
 # Maintainer: Jurriaan Pruis <email@jurriaanpruis.nl>
 
 pkgname=deconz
-arch=('x86_64' 'armv6h' 'armv7h')
+arch=('x86_64' 'armv6h' 'armv7h' 'aarch64')
 pkgver=2.05.39
 pkgrel=4
 pkgdesc="A generic ZigBee monitoring and control tool"
